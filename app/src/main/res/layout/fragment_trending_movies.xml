@@ -1,0 +1,27 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="se.k3.antonochisak.kd323bassignment5.fragments.TrendingMoviesFragment"
+    android:background="#ff484757"
+    >
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:visibility="gone"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        />
+
+
+    <ListView
+        android:id="@+id/trendingListView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:divider="#ff3a3946"
+        android:dividerHeight="4dp"
+        />
+
+</FrameLayout>

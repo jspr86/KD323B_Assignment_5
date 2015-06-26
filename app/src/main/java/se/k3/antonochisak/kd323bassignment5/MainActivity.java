@@ -12,6 +12,7 @@ import com.firebase.client.Firebase;
 import butterknife.ButterKnife;
 import butterknife.InjectView;
 import se.k3.antonochisak.kd323bassignment5.fragments.PopularMoviesFragment;
+import se.k3.antonochisak.kd323bassignment5.fragments.TrendingMoviesFragment;
 import se.k3.antonochisak.kd323bassignment5.navigation.drawer.NavigationDrawer;
 
 
